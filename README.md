@@ -1,2 +1,5 @@
 # YandexAPI_practice
-does something using yandex API
+Показывает текщую погоду и даже показывает небольшой ПрОгНоЗ.
+Чтобы успешно получать погоду через терминал, для начала из папки YandexAPI_practice выполните pip install -r requirements.txt.
+Программу можно запустить коммандой python weather.py или прочитать ознакомительное письмо с помощью python weather.py --help. 
+Надеюсь, что проблем не возникнет :)

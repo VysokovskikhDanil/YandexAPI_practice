@@ -1,2 +1,2 @@
-# vkAPI_practice
-does something using vk API
+# YandexAPI_practice
+does something using yandex API

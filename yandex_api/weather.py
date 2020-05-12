@@ -14,7 +14,7 @@ def update_weather():
         local_memory.write("weather_response = " + str(get_weather_by_lat_lon('56.841238', '60.615093')))
         local_memory.close()
 
-if(sys.argv[-1] in ['help', '-h', '--help', '?']): print("Автор проекта: Высоковских Данил Игоревич, группа: КН-201 (ИЕН-280206)/nЧтобы начать пользоваться этой программой, просто запустите её :)")
+if(sys.argv[-1] in ['help', '-h', '--help', '?']): print("Автор проекта: Высоковских Данил Игоревич, группа: КН-201 (МЕН-280206)/nЧтобы начать пользоваться этой программой, просто запустите её :)")
 else:
     update_weather()
     cool_looking_weather_output(weather_response)

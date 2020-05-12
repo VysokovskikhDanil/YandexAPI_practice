@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-from yandex_weather_api import get_weather_by_lat_lon
-from cool_looking_output import cool_looking_weather_output, future_weather_output
-from local_memory import weather_response
+from modules.yandex_weather_api import get_weather_by_lat_lon
+from modules.cool_looking_output import cool_looking_weather_output, future_weather_output
+from modules.local_memory import weather_response
 from datetime import datetime
 from pathlib import Path
 import sys
